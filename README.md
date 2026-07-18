@@ -95,4 +95,4 @@ Data dengan `id` yang sama otomatis akan di-replace (update), jadi aman dijalank
 - Ganti `MODEL` di `ai_client.py` kalau mau pakai model lain (lebih murah/lebih pintar), lihat daftar model di https://openrouter.ai/models
 - `NAMA_BOT` di `bot.py` masih placeholder ("Sugeng") — ganti sesuai nama startup kalian nanti
 - Database pakai SQLite (`career_bot.db`), cukup untuk awal. Kalau user sudah banyak, bisa migrasi ke PostgreSQL
-- Jangan commit file `.env` ke Git (sudah seharusnya masuk `.gitignore`)
+- Jangan commit file `.env` ke Git
